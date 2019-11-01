@@ -21,7 +21,6 @@ mount /dev/sda2 /mnt/home
 swapon /dev/sda3
 
 pacstrap /mnt base base-devel linux linux-firmware
-pacman -S vim
 genfstab -U /mnt >> /mnt/etc/fstab
 cat /mnt/etc/fstab (to see if correct)
 
@@ -29,6 +28,7 @@ arch-chroot /mnt
 ln -s /usr/share/zoneinfo/America/New_York /etc/localtime
 hwclock --systohc
 locale-gen
+pacman -S vim
 vim /etc/locale.conf
 add LANG=en_US.UTF-8
 date (check if correct)
