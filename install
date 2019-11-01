@@ -46,7 +46,7 @@ pacman -S wpa_supplicant wireless_tools dialog
 pacman -S reflector rsync mlocate bash-completion
 pacman -S xf86-video-(ati nouveau intel)
 pacman -S virtualbox-guest-utils
-pacman -S xorg-xinit xorg-twm xterm
+pacman -S xorg xorg-xinit xorg-twm xterm
 pacman -S alsa-utils
 
 pacman -S xfce4
