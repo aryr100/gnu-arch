@@ -3,7 +3,7 @@ The Arch Way
 
 - burn iso file to disc or USB
 - boot from media
-- press enter desired entry (64 or 32)
+- press enter desired entry (64)
 
 - wifi-menu (if wireless)
 - sync Arch mirrors:
@@ -32,9 +32,6 @@ locale-gen
 vim /etc/locale.conf
 add LANG=en_US.UTF-8
 date (check if correct)
-
-EDITOR=nano visudo
-uncomment %wheel (choose one)
 
 echo vbox > /etc/hostname
 vim /etc/hosts (change to hostname)
