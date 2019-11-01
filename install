@@ -52,7 +52,7 @@ pacman -S alsa-utils
 pacman -S xfce4
 
 mkinitcpio -p linux
-psswd
+passwd
 pacman -S grub os-prober
 grub-install /dev/sdX
 grub-mkconfig -o /boot/grub/grub.cfg
